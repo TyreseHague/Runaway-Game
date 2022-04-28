@@ -23,7 +23,7 @@ public class CameraTrackController : MonoBehaviour
     void FixedUpdate()
     {
         Vector3 _offset = new Vector3(0, 0, 0);
-        Vector3 _desired_position = new Vector3(target.position.x,transform.position.y,transform.position.z) + _offset;
+        Vector3 _desired_position = new Vector3(target.position.x,target.position.y+2.5f,transform.position.z) + _offset;
 
         // get the absolute distance from the camera
         float distanceFromCamera = Mathf.Abs(transform.position.x - target.transform.position.x);
@@ -33,7 +33,7 @@ public class CameraTrackController : MonoBehaviour
         Vector3 _smoothed_position = Vector3.Lerp(transform.position, _desired_position,smoothSpeed*(Time.deltaTime*(Mathf.Max(5,Vector3.Distance(transform.position,_desired_position)))));
         
         // Check if it should track
-        if (distanceFromCamera > 4 || tracking && distanceFromCamera > 3)
+        if (distanceFromCamera > 4 || tracking && distanceFromCamera > 3 || target.position.y - 2.5 != transform.position.y)
             tracking = true;
         else
             tracking = false;
