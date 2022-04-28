@@ -6,9 +6,39 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Opening/Team_Logo.unity
+    guid: 7eca7f3b80df25e43ae054b8f6cda3d6
+  - enabled: 1
+    path: Assets/Scenes/Opening/MainMenu.unity
+    guid: 51b312ced7d60ae42872f2b2125a1222
+  - enabled: 1
+    path: Assets/Scenes/CutsceneScenes/1.unity
+    guid: fa632a1559c152f4fb608be7ca9c7adb
+  - enabled: 1
+    path: Assets/Scenes/CutsceneScenes/2.unity
+    guid: 1eb2b664e5587f448a3c8692a51fd4ee
+  - enabled: 1
+    path: Assets/Scenes/CutsceneScenes/3.unity
+    guid: 6d08868a14c4cfd41a156be60b0f424a
+  - enabled: 1
+    path: Assets/Scenes/CutsceneScenes/4.unity
+    guid: e67eae04c791f8b4b984187450f4835a
+  - enabled: 1
+    path: Assets/Scenes/CutsceneScenes/5.unity
+    guid: da50d1ba83dec9b42a7c8f2f631057f9
+  - enabled: 1
+    path: Assets/Scenes/CutsceneScenes/6.unity
+    guid: 2177adb5010601a4ca3698830977a87c
+  - enabled: 1
+    path: Assets/Scenes/Level/LevelFinal.unity
+    guid: a531bfd4467ef8140bd2e11483e142e1
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/CutsceneScenes/1stScene.unity
-    guid: da887c69b1715fb40af5424073c19292
+    path: Assets/Scenes/Opening/Credits.unity
+    guid: 8bf0038427f56bd459f3b92cfb36681d
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
