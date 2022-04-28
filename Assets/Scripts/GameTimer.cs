@@ -10,15 +10,12 @@ public class GameTimer : MonoBehaviour
     public string nextScene; // Scene to be loaded when time runs out 
 
     private float startTime; // Time when the timer started
-    private Text timerDisplay; // the display for our timer
+
 
 
     // Called before first frame 
     void Start()
     {
-        // Getting our text component so we can edit the text each frame
-        timerDisplay = GetComponent<Text>();
-
         // Set the start time for when this object was created
         startTime = Time.time;
     }
@@ -29,15 +26,13 @@ public class GameTimer : MonoBehaviour
         // Calculate how much time has passed
         float timePassed = Time.time - startTime;
 
-        // Display time since start
-        timerDisplay.text = (Mathf.CeilToInt(timeLimit - timePassed)).ToString();
-
         // Check if the time limit is done
         if (timePassed >= timeLimit)
         {
             // Load next scene
             SceneManager.LoadScene(nextScene);
         }
+        //dog game
 
     }
 }
