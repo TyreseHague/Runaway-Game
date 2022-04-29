@@ -7,12 +7,15 @@ public class PlayerMovementScript : MonoBehaviour
     // Public
     public CharacterController2D controller;
     public Sprite[] animation_sprites;
+    public Sprite[] animation_sprites_jump;
     public float walkSpeed = 40f;
     public float sprintMultiplier = 2.3f;
 
     // Private    
     float horizontalMove = 0;
     bool jump = false;
+    int jump_index = -1;
+    double jump_timer = 0;
     bool running = false;
 
     int animation_index = 0;
@@ -39,6 +42,8 @@ public class PlayerMovementScript : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
+            jump_index = 0;
+            jump_timer = 0;
         }
 
         //update sprite
@@ -54,7 +59,9 @@ public class PlayerMovementScript : MonoBehaviour
                 {
                     animation_index = 0;
                 }
-                GetComponent<SpriteRenderer>().sprite = animation_sprites[animation_index];
+                if (jump_index == -1) {
+                    GetComponent<SpriteRenderer>().sprite = animation_sprites[animation_index];
+                }
             }
         }
         else
@@ -63,7 +70,9 @@ public class PlayerMovementScript : MonoBehaviour
             {
                 animation_index = (animation_index + 1) % animation_sprites.Length;
             }
-            GetComponent<SpriteRenderer>().sprite = animation_sprites[animation_index];
+            if (jump_index == -1) {
+                GetComponent<SpriteRenderer>().sprite = animation_sprites[animation_index];
+            }
         }
     }
 
@@ -72,5 +81,20 @@ public class PlayerMovementScript : MonoBehaviour
         controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
         jump = false;
         running = false;
+
+        if (jump_index > -1 && jump_index < animation_sprites_jump.Length)
+        {
+            jump_timer += Time.fixedDeltaTime;
+            if (jump_timer > 0.05)
+            {
+                GetComponent<SpriteRenderer>().sprite = animation_sprites_jump[jump_index];
+                jump_timer = 0;
+                jump_index++;
+                if (jump_index >= animation_sprites_jump.Length)
+                {
+                    jump_index = -1;
+                }
+            }
+        }
     }
 }
