@@ -34,7 +34,7 @@ public class MovingPlatform : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, nextPos, speed * Time.deltaTime);
     }
 
-    private void OnDrawGizmos()
+    private void OnDrawGizmos() //this makes a line appear between the 2 positions, showing where the platforms arc without needing to test it 
     {
         Gizmos.DrawLine(pos1.position, pos2.position);
     }
