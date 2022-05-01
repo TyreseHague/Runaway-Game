@@ -6,6 +6,7 @@ TagManager:
   tags:
   - child
   - Teleporter
+  - Box
   layers:
   - Default
   - TransparentFX
