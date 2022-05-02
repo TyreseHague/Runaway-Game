@@ -5,15 +5,12 @@ using UnityEngine;
 public class BackgroundChange : MonoBehaviour
 {
 
-    public float alphaLevel = .5f;
+    [SerializeField] private Animator background;    
+    
+    
+    [SerializeField] private string backgroundChanging = "backgroundChange";
 
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -21,9 +18,10 @@ public class BackgroundChange : MonoBehaviour
         void OnTriggerEnter2D(Collider2D collision)
         {
             if (collision.CompareTag("Player") == true) //checks if the object collided with is the player
-                alphaLevel -= .5f;
+            {
+                backgroundImage.Play(background, 0, 0.0f);
+            }
 
-            GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, alphaLevel);
         }
     }
 }
