@@ -539,7 +539,7 @@ MonoBehaviour:
   m_JumpForce: 500
   m_CrouchSpeed: 0.36
   m_MovementSmoothing: 0.05
-  m_AirControl: 0
+  m_CanAirControl: 0
   m_WhatIsGround:
     serializedVersion: 2
     m_Bits: 55
@@ -601,7 +601,7 @@ SpriteRenderer:
   m_Size: {x: 10.42, y: 9.55}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &423875392
@@ -1521,7 +1521,7 @@ MonoBehaviour:
   m_JumpForce: 750
   m_CrouchSpeed: 0.36
   m_MovementSmoothing: 0.05
-  m_AirControl: 0
+  m_CanAirControl: 0
   m_WhatIsGround:
     serializedVersion: 2
     m_Bits: 55
@@ -1634,6 +1634,7 @@ MonoBehaviour:
   - {fileID: -75205333, guid: ded8057f2f2e38741bf0bad43a9f3a0f, type: 3}
   - {fileID: 1177199057, guid: ded8057f2f2e38741bf0bad43a9f3a0f, type: 3}
   - {fileID: 503103633, guid: ded8057f2f2e38741bf0bad43a9f3a0f, type: 3}
+  animation_sprites_jump: []
   walkSpeed: 15
   sprintMultiplier: 2.3
 --- !u!114 &1371662979
@@ -2566,7 +2567,7 @@ PrefabInstance:
     - target: {fileID: 8352683176355051025, guid: d3562063050dcef4eb83813b8730ac89, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 384891303}
+      objectReference: {fileID: 0}
     - target: {fileID: 8352683176468707914, guid: d3562063050dcef4eb83813b8730ac89, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2661,3 +2662,20 @@ PrefabInstance:
       objectReference: {fileID: 384891308}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3562063050dcef4eb83813b8730ac89, type: 3}
+--- !u!1 &8352683176098549778 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8352683176355050991, guid: d3562063050dcef4eb83813b8730ac89, type: 3}
+  m_PrefabInstance: {fileID: 8352683176098549777}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8352683176098549779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8352683176098549778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec8a080658f63aa4b97e195dd3e47932, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
