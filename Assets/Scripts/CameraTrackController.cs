@@ -26,7 +26,9 @@ public class CameraTrackController : MonoBehaviour
         Vector3 _desired_position = new Vector3(target.position.x,target.position.y+2.5f,transform.position.z) + _offset;
 
         // get the absolute distance from the camera
-        float distanceFromCamera = Mathf.Abs(transform.position.x - target.transform.position.x);
+        float distanceFromCameraX = Mathf.Abs(transform.position.x - target.transform.position.x);
+        float distanceFromCameraY = Mathf.Abs(transform.position.y - (target.transform.position.y-2.5f));
+        float distanceFromCamera = distanceFromCameraX+distanceFromCameraY;
         
         // smoothly track the camera to the player
         float actualSmoothSpeed = mapValue(distanceFromCamera,1,4,0,smoothSpeed,false);

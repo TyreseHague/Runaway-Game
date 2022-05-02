@@ -10,11 +10,12 @@ public class PlayerMovementScript : MonoBehaviour
     public Sprite[] animation_sprites_jump;
     public float walkSpeed = 40f;
     public float sprintMultiplier = 2.3f;
+    public int jump_index = -1;
 
     // Private    
     float horizontalMove = 0;
     bool jump = false;
-    int jump_index = -1;
+    
     double jump_timer = 0;
     bool running = false;
 
