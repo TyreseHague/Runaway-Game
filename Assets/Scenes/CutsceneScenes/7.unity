@@ -296,9 +296,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneFading
       objectReference: {fileID: 0}
+    - target: {fileID: 734542602078326928, guid: 19291735b2faf7447b7fb212dc9243c9, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 734542602078326932, guid: 19291735b2faf7447b7fb212dc9243c9, type: 3}
       propertyPath: levelToLoad
-      value: LevelFinal
+      value: LevelFinal1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19291735b2faf7447b7fb212dc9243c9, type: 3}
