@@ -661,7 +661,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeLimit: 34
-  nextScene: LevelFinal2
+  nextScene: Credits1
 --- !u!114 &1653095866
 MonoBehaviour:
   m_ObjectHideFlags: 0

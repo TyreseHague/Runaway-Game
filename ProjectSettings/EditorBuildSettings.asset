@@ -36,8 +36,20 @@ EditorBuildSettings:
     path: Assets/Scenes/CutsceneScenes/7.unity
     guid: 30ce86dc70f6b154899463805ba81f02
   - enabled: 1
-    path: Assets/Scenes/Level/LevelFinal.unity
-    guid: a531bfd4467ef8140bd2e11483e142e1
+    path: Assets/Scenes/Level/FinalLevel1.unity
+    guid: 289a2787b1b579d47b61be52648a760a
+  - enabled: 1
+    path: Assets/Scenes/Level/SkyScene1.unity
+    guid: eb94cb6b2daf2da4896b7c9b2cbe62c8
+  - enabled: 1
+    path: Assets/Scenes/Level/SkyScene2.unity
+    guid: 19508e93d4b037d49b2958d4ff461196
+  - enabled: 1
+    path: Assets/Scenes/Level/FinalLevel2.unity
+    guid: 154772a5a823da74791646317c14d954
+  - enabled: 1
+    path: Assets/Scenes/Level/FinalLevel3.unity
+    guid: 9d6d74ce856fb784baa4891a1290ce29
   - enabled: 1
     path: Assets/Scenes/Credits/Credits1.unity
     guid: 764524658a87eb94aa9237eb0159731c
@@ -65,7 +77,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Credits/Credits9.unity
     guid: 98b115d042490e749806e1e2ecf513df
-  - enabled: 1
-    path: Assets/Scenes/Level/SkyScene2.unity
-    guid: 19508e93d4b037d49b2958d4ff461196
   m_configObjects: {}
