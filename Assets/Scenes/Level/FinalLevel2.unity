@@ -3406,7 +3406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1371662972}
-  smoothSpeed: 0.1
+  smoothSpeed: 1
 --- !u!82 &519420034
 AudioSource:
   m_ObjectHideFlags: 0

@@ -3406,7 +3406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1371662972}
-  smoothSpeed: 0.1
+  smoothSpeed: 1
 --- !u!82 &519420034
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6701,7 +6701,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &898256295
 AudioSource:
   m_ObjectHideFlags: 0
@@ -14911,7 +14911,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8352683176355051025, guid: d3562063050dcef4eb83813b8730ac89, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: MainMenu
+      value: Team_Logo
       objectReference: {fileID: 0}
     - target: {fileID: 8352683176355051025, guid: d3562063050dcef4eb83813b8730ac89, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
