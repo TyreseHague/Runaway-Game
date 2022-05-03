@@ -9,6 +9,7 @@ public class LoadScene : MonoBehaviour
 
     public void LoadTargetScene(string sceneToLoad)
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene(sceneToLoad); //loads the scene
     }
 }

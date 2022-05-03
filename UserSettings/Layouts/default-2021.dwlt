@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 482.66666
     height: 968
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 50
+  controlID: 44
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 51
+  controlID: 45
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -441,36 +441,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Images
+    - Assets/Scenes/Level
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Images
+  - Assets/Scenes/Level
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Users\Tyrese\Documents\GitHub\Runaway-Game\Runaway-Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 89.666626}
-    m_SelectedIDs: 366e0000
-    m_LastClickedID: 28214
-    m_ExpandedIDs: 000000001c6e00001e6e0000206e000000ca9a3b
+    scrollPos: {x: 0, y: 201.66663}
+    m_SelectedIDs: 6c6e0000
+    m_LastClickedID: 28268
+    m_ExpandedIDs: 00000000466e0000486e00004a6e00005e6e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: CutsceneScenes
+      m_OriginalName: CutsceneScenes
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 28266
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -484,7 +484,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001c6e00001e6e0000206e0000
+    m_ExpandedIDs: 00000000466e0000486e00004a6e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -612,9 +612,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 7eb7ffff48bdffff52c2ffff24c5ffffe4cbffff62ccffffc0ceffff5ed3ffffe2d4ffff60d5ffff78d5ffff82d5ffff8cd5ffff96d5ffffa0d5ffffaad5ffffb4d5ffffbed5ffffc8d5ffffd2d5ffffcad7ffffc2d9ffffc8d9ffffced9ffffc6dbffffe6dbffff06dcffff26dcffff46dcffff66dcffff86dcffffa6dcffffb0dcffffacdeffffb2deffff20e0ffff9ee0ffffb6e0ffffc0e0ffffcae0ffffd4e0ffffdee0ffffe8e0fffff2e0fffffce0ffff06e1ffff10e1ffff08e3ffff00e5ffff06e5ffff0ce5ffff04e7ffff24e7ffff44e7ffff64e7ffff84e7ffffa4e7ffffc4e7ffffe4e7ffffeee7ffffeae9fffff0e9ffffe6ecffff64edffffb8efffffc2efffffccefffffd6efffffe0efffffeaeffffff4effffffeefffff08f0ffff12f0ffff0af2ffff02f4ffff08f4ffff10f4ffff08f6ffff28f6ffff48f6ffff68f6ffff88f6ffffa8f6ffffc8f6ffffeaf6fffff4f6ffff22f9ffff28f9ffff14fbfffff4ffffff2c18010084180100f2180100d03b0100d43b01002c3c01009a3c0100324c0100
+      m_SelectedIDs: f4740000
+      m_LastClickedID: 29940
+      m_ExpandedIDs: f0f6ffff14fbffffcc7000002471000092710000f6710000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -887,7 +887,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 4.5663934, y: -0.83778524, z: -18.821379}
     speed: 2
-    m_Value: {x: 4.1139016, y: -0.76206213, z: -18.815002}
+    m_Value: {x: 4.5663934, y: -0.83778524, z: -18.821379}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -940,7 +940,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 14.807512
     speed: 2
-    m_Value: 14.169868
+    m_Value: 14.807512
   m_Ortho:
     m_Target: 1
     speed: 2
